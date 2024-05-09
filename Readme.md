@@ -1,13 +1,13 @@
 ## commits
 
 
-##Branches
+## Branches
 
 
 ## Remotes
 
 
-##Stashing
+## Stashing
 
 
-##Merging
+## Merging
