@@ -41,6 +41,11 @@ set the global editor
 ```
 git config -- global core.editor emacs
 ```
+
+make a commit and commit message without opening editor
+```sh
+git commit -m "add another question mark"
+```
 ## Branches
 
 
@@ -72,4 +77,22 @@ git reset
  ```
  ## git config file
  its what stores your global configuration for git such as email, name.editor and more
+ showing the contents of our .gitconfig file
+ ```sh
+ git config --list
+ ```
+ When you fisrt install Git on a machine You are suppose to set up your name and email.
+ ```sh
+ git config --global user.name "Your Name Here"
+ git config --global user.email your@email.example
+```
+## Log
+git log will show recent git commits to the git tree
+
+## Push
+
+when we want to Push a repo to our remote origin
+```
+git push
+```
 
