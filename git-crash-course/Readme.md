@@ -8,6 +8,8 @@ git init
 touch Readme.md
 code Readme.md
 git status 
+git add Readme.md
+
 # make changes to Readme.md
 git commit -m "add readme file"
 vc
@@ -30,8 +32,15 @@ cd Github-examplecd
 
 
 ## commits
+when we want to commit code we can write git commit which will open up the commit edit message in the editor of choice
 
-
+```
+git commit
+```
+set the global editor
+```
+git config -- global core.editor emacs
+```
 ## Branches
 
 
@@ -42,4 +51,25 @@ cd Github-examplecd
 
 
 ## Merging
+## ADD
+```git add Readme.md
+git add. 
+```
+## Reset
+reset allows you  to staged changes to be unstaged
+this is useful when you to revert all files not to be not commited
+
+```
+git add.
+git reset
+```
+ git reset will revert a git add.
+
+ ## status
+ git status will shows you what files are will or will not to be commited
+ ```
+ git status
+ ```
+ ## git config file
+ its what stores your global configuration for git such as email, name.editor and more
 
