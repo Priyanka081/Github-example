@@ -1,1 +1,1 @@
-Lets start the Github!
+Let's start the Github!
