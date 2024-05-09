@@ -12,11 +12,11 @@ git add Readme.md
 
 # make changes to Readme.md
 git commit -m "add readme file"
-vc
 
 
 
-### cloning
+
+## cloning
 wer can clone three ways: HTTPS, SSH, Github CLI
 since we are using codespaces we'll a create atemporary directory in our workspace
 ```sh
@@ -27,7 +27,7 @@ cd /workspaces/tmp
 ### HTTPS
 ```sh
 git clone https://github.com/Priyanka081/Github-example.git
-cd Github-examplecd
+cd Github-example
 ```
 
 
