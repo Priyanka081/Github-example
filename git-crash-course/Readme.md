@@ -48,8 +48,18 @@ make a commit and commit message without opening the editor
 git commit -m "add another question mark"
 ```
 ## Branches
-
-
+list of branch 
+```sh
+git branch
+```
+create new branch 
+```sh
+git branch branch-name
+```
+checkout 
+```
+git checkout dev
+```g
 ## Remotes
 
 
