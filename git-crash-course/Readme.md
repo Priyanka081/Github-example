@@ -37,6 +37,7 @@ when we want to commit code we can write a git commit which will open up the com
 ```
 git commit
 ```
+
 set the global editor
 ```
 git config -- global core.editor emacs
